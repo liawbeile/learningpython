@@ -1,8 +1,7 @@
-from calculator import sum_two_numbers
+from frequency import char_frequency
 
-num1=int(input("Enter first number"))
-num2=int(input("Enter second number"))
+a_sentence="Hello, my name is Joe"
 
+freq=char_frequency(a_sentence)
 
-number_sum=sum_two_numbers(num1, num2)
-print(number_sum)
+print(freq)
