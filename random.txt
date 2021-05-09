@@ -1,0 +1,7 @@
+This is a random text file.
+This is being used to learn python,
+and how to deal with files in python.
+This is a really long line in this text file.
+This is an even longer line in this text file.
+the quick brown fox jumped over the lazy dog
+Hello there!
