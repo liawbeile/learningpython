@@ -30,6 +30,10 @@ with open('random.txt','r') as f:
         i+=1
         if i<=number:
             print(line)
+        #should break out of the loop after there is no need to print
+        #else this solution will iterate through the entire file even if it does not have to print
+        else:
+            break
 
 # find n from user
 # set i=0
@@ -68,8 +72,8 @@ with open('random.txt','r') as f:
 sentence = "This is a new sentence"
 
 with open('random.txt','a') as f:
-    lines=f.write("\n")
-    lines=f.write(sentence)
+    f.write("\n")
+    f.write(sentence)
 
 #when file is open and we want to append
 #append "next line"
